@@ -1,6 +1,6 @@
-# Mathless
+# m∀thl∃ss.lean
 
-Mathless is a virtual conference celebrating and exploring the Lean4 community's contributions to **secure program synthesis**. No math allowed.
+m∀thl∃ss.lean is a virtual conference celebrating and exploring the Lean4 community's contributions to **secure program synthesis**. Math is made of tokens, which we can use for something else.
 
 The tracks are
 1. **Adversarial robustness**: we know a sufficiently powerful reward hacking AI can trick Lean, because humans have tricked Lean (found proofs of `False`). We'd love to look at results searching for proofs of false, hardening Lean against proofs of false, as well as governance discussions like "should there be a gh issue tag for proofs of false?" (as there is in agda).
