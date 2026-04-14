@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "m∀thl∃ss",
+  title: "m∀thl∃ss.lean",
   description:
-    "A virtual conference celebrating the Lean4 community's contributions to secure program synthesis. No math allowed.",
+    "A virtual conference celebrating the Lean4 community's contributions to secure program synthesis. Math is made of tokens, which we can use for something else.",
 };
 
 export default function RootLayout({
