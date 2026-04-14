@@ -27,8 +27,7 @@ Current: one-page MDX at `/`. Add:
 - `/submit` — submission form for papers/repos/breakout sessions (gated: open only once ≥1 curator is seated per track).
 - `/register` — pay-what-you-can checkout → Stripe → Discord invite.
 - `/schedule` — published ~2 weeks before event. Static until then.
-- `/coc` — code of conduct (required for any conference; reviewers & Discord members must accept).
-- `/faq` — refunds, accessibility, recording policy, timezone.
+- `/faq` — code of conduct (inline at `#coc`), refunds, accessibility, recording policy, timezone. CoC is not a dedicated route; the acknowledgement checkboxes on `/submit`, `/curate`, `/register` deep-link to `/faq#coc`.
 - `/admin` — protected dashboard (auth-gated) for curator review queue, registrants, Discord invite status.
 
 ---
@@ -236,7 +235,7 @@ Work backwards: reviews need ~3 weeks, submissions need ~2 months open, curators
 
 Assumes event on 2026-10-17. Slide earlier/later if you pick Q4.
 
-1. **April** (now): playbook, domain/email setup, Neon hookup, schema + migrations, `/coc` + `/faq` static. No rush — this is the foundation month.
+1. **April** (now): playbook, domain/email setup, Neon hookup, schema + migrations, `/faq` (CoC inlined) static. No rush — this is the foundation month.
 2. **May**: Stripe integration + `/register` + webhook + Discord invite stub. Dry-run with test-mode Stripe. Build `/curate` form + admin queue + Clerk auth.
 3. **Late May**: Discord bot on Fly.io, invite reconciliation plumbing. Soft-ask 3–5 anchor curators.
 4. **June 1**: open curator applications. Build `/submit` form in parallel.
