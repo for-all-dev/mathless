@@ -15,7 +15,12 @@ export default function Home() {
                         <strong className="text-[var(--foreground)]">
                             secure program synthesis
                         </strong>
-                        . Math is made of tokens, which we can use for something else.
+                        .{" "}
+                        <em>
+                            Math is made of tokens, which we can use for
+                            something else
+                        </em>
+                        .
                     </p>
                 </header>
                 <Content />
